@@ -1,0 +1,134 @@
+.following-center-top img{
+    max-width: 100%;
+    width: 100px;
+    box-sizing: border-box;
+}
+#following{
+  height: 100%;
+  width: 100%;
+  /* background-color: aquamarine; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.following-center {
+  width: 56.4%;
+  /* width: 40%; */
+  /* background-color: #fff; */
+  /* height: 100%; */
+  padding-right: 4px;
+  margin-left: 5px;
+
+}
+.following-center-top{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.following-description a{
+  text-decoration: none;
+}
+.following-description a:hover{
+  text-decoration: underline;
+}
+
+.following-headline h6{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #636366;
+}
+.following-description h6{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #636366;
+  text-align: center;
+}
+
+.following-bottom-headline h6{
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 29px;
+  color: #282829;
+  text-align: left;
+}
+.following-bottom{
+  background-color: #ffffff;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+}
+.spaces-might-like{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  color: #282829;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.discover-image img{
+  height: 40px;
+  width: 40px;
+  /* max-width: 100%; */
+  border-radius: 33.33%;
+  margin-right: 10px;
+}
+.discover-spaces-box{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: -12px 0px;
+  cursor: pointer;
+}
+.discover-spaces-box:hover{
+  background-color: #F1F2F2;
+}
+.discover-space-name h6{
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 500;
+  color: #282829;
+  margin-bottom: -2px;
+}
+
+.space-followers h6{
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #939598;
+  margin-bottom: -2px;
+}
+.space-description h6{
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #282829;
+}
+
+
+
+@media screen and (max-width:1111px){
+  #following{
+    width: 100%;
+  }
+  .following-center{
+    width: 100%;
+    margin-left: 0;
+    padding-right: 0;
+  }
+  .following-center-top{
+    margin-bottom: 40px;
+  }
+  .following-description h6{
+    font-size: 17px
+  }
+  .following-description{
+    margin: 0 15px;
+  }
+}

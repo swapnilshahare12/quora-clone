@@ -1,0 +1,441 @@
+#login {
+  background-image: url('https://res.cloudinary.com/dgm9yxyho/image/upload/v1690884986/desktopbg_mjwkxe.webp');
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-box {
+  height: 555px;
+  background-color: #ffffff;
+  /* width: 50vw; */
+  width: 685px;
+  border-radius: 3px;
+}
+
+.quora-logo path {
+  fill: #b92b27;
+}
+
+.quora-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.quora-logo svg {
+  height: 100%;
+  width: 175.652px;
+  /* width: 300.652px; */
+}
+
+.head-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -12px;
+}
+.head-line h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 21px;
+  color: #636466;
+}
+
+.login-box-center {
+  /* padding: 50px 0px; */
+  padding-top: 50px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.login-box-center-left,
+.login-box-center-right {
+  /* background-color: yellow; */
+  /* height: 100px; */
+  width: 50%;
+  padding: 10px 25px;
+  border-right: 1px solid #dee0e1;
+}
+.login-box-center-left .terms-of-service {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #939598;
+}
+.login-box-center-left .google,
+.login-box-center-left .facebook {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border: 1px solid #dee0e1;
+  border-radius: 4px;
+  padding: 8px 8px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.login-box-center-left .google:hover,
+.login-box-center-left .facebook:hover {
+  background-color: #f5f5f5;
+}
+.login-box-center-left .facebook {
+  margin-top: 8px;
+}
+.login-box-center-left .google h1,
+.login-box-center-left .facebook h1 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  color: #282829;
+  margin-left: 10px;
+}
+
+.login-box-center-right input {
+  width: 100%;
+  height: 45px;
+  border: 1px solid #dee0e1;
+  border-radius: 4px;
+  padding: 0px 8px;
+  margin-top: 4px;
+  margin-bottom: 15px;
+}
+.login-box-center-right input:focus {
+  outline: none;
+  border: 1px solid #1877f2;
+}
+
+.login-box-center-right input[type='email']:hover,
+.login-box-center-right input[type='password']:hover {
+  border: 1px solid #1877f2;
+}
+.login-box-center-right input::placeholder {
+  color: #939598;
+}
+.terms-of-service a {
+  text-decoration: none;
+  color: #195faa;
+  transition: 0.2 ease-in-out;
+}
+.terms-of-service a:hover {
+  text-decoration: underline;
+}
+.login-box-center-right h1 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #282829;
+}
+.login-box-center-right .login-text {
+  margin-top: -12px;
+  margin-bottom: -8px;
+}
+
+.login-box-center-left .signup,
+.login-box-center-left .login {
+  text-align: center;
+  font-weight: 500;
+  font-size: 13px;
+  color: #636466;
+  margin-top: 10px;
+  cursor: pointer;
+  /* width: 100%; */
+  padding: 5px 0px;
+}
+.login-box-center-left .signup {
+  /* background-color: red; */
+  width: 50%;
+  border-radius: 20px;
+}
+.login-box-center-left .login {
+  /* background-color: blue; */
+  display: none;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.sign-up-and-login {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.login-box-center-right-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.forgotpass {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #939598;
+}
+.forgotpass p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.login-box-center-right-bottom .loginBtn {
+  background-color: #2e69ff;
+  padding: 0px 20px;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0;
+  text-shadow: unset;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  /* cursor: pointer; */
+}
+
+.languages {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.languages h1 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #195faa;
+}
+.languages .hindi,
+.languages .marathi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.languages .hindi path,
+.languages .marathi path {
+  stroke: #636466;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #f1f2f2;
+  margin: -16px 0;
+  padding: 14px 0px;
+}
+.footer p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #636466;
+  cursor: pointer;
+}
+.footer p:hover {
+  text-decoration: underline;
+}
+.footer p span:hover,
+.footer .span:hover {
+  text-decoration: none;
+}
+.footer .dot {
+  font-size: 8px;
+  margin: 0px 3px;
+}
+.marathi h1:hover,
+.hindi h1:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.modal-header {
+  padding: 1rem;
+}
+
+.modal-body input {
+  width: 100%;
+  /* height: 45px; */
+  padding-left: 10px;
+  border: none;
+  outline: none;
+
+  font-weight: 400;
+  font-size: 14px;
+  /* margin: 5px 0px; */
+}
+.modal-body{
+  height: unset;
+}
+.modal-body input:focus {
+  /* outline: none; */
+  /* border: 1px solid #1877f2; */
+}
+
+.modal-body input::placeholder {
+  color: #939598;
+}
+.sign-up-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 0;
+}
+.modal-footer .sign-up-btn {
+  width: 100%;
+  font-weight: bold;
+  padding: 10px 0px;
+  box-shadow: 0 0 1.5px black;
+}
+
+.sign-up-btn {
+  margin: 0.25rem 0rem;
+}
+.modal-dialog {
+  max-width: 600px;
+  padding: 0px 10px;
+}
+.modal-content {
+  /* height: 500px; */
+  min-height: 0px;
+  /* max-height: 500px; */
+}
+
+.profile-picture-of-user h1 {
+  font-size: 15px;
+  margin-left: 11px;
+}
+.modal-body .profile-picture-of-user,
+.modal-body .name,
+.modal-body .surname,
+.modal-body .email,
+.modal-body .profession,
+.modal-body .password,
+.modal-body .confirmpassword {
+  height: 45px;
+  border-radius: 4px;
+  border: 1px solid blue;
+  padding: 8px 0px;
+  margin: 8px 0px;
+  box-shadow: 0 0 1.5px black;
+}
+/* .modal-body .profile-picture-of-user:hover,
+.modal-body .name:hover,
+.modal-body .surname:hover,
+.modal-body .email:hover,
+.modal-body .password:hover,
+.modal-body .confirmpassword:hover
+{
+  border: 1px solid #1877f2;
+} */
+
+#file-upload-button {
+  border: none !important;
+}
+.bg-top{
+  height:150px;
+  display: none;
+}
+.bg-bottom{
+  display: none;
+  /* height: 190px; */
+  height: 20%;
+  overflow: hidden;
+  /* height: 100%; */
+  /* margin-top: 30px; */
+}
+.bg-top img,.bg-bottom img{
+  object-fit: cover;
+  max-width: 100%;
+  overflow: hidden;
+  
+}
+@media screen and (max-width: 834px) {
+  #login {
+    background-image: url('https://res.cloudinary.com/dgm9yxyho/image/upload/v1690885058/tablet_ftx8p8.webp');
+    /* background-color: red; */
+    /* background-position:bottom; */
+    background-size: 100px;
+    height: 100vh;
+    /* background-size:cover; */
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-box-center-left {
+    width: 100%;
+    border: none;
+  }
+  .login-box-center-right {
+    display: none;
+  }
+  .quora-logo path {
+    fill: #ffffff;
+  }
+  .quora-logo {
+    margin-top: 96px;
+  }
+  .login-box {
+    background-color: transparent;
+    height: 100vh;
+  }
+  .head-line h1 {
+    color: #ffffff;
+    text-align: center;
+    padding: 0px 30px;
+  }
+  .terms-of-service p {
+    color: #ffffff;
+  }
+  .login-box-center-left .google,
+  .login-box-center-left .facebook {
+    background-color: #ffffff;
+  }
+  .footer {
+    /* display: none; */
+    background-color: transparent;
+    gap: 5px;
+  }
+
+  .footer p {
+    color: white;
+  }
+  .login-box-center-left .login {
+    display: block;
+  }
+  .login-box-center-left .signup,
+  .login-box-center-left .login {
+    color: white;
+    background-color: #adb9be;
+  }
+  .privacy,
+  .terms,
+  .contact,
+  .your-ad,
+  .press {
+    display: none;
+  }
+  .languages{
+    display: none;
+  }
+  #third-hr{
+    display: none;
+  }
+  .bg-top{
+    display: block;
+    margin-top: -90px;
+  }
+  .bg-bottom{
+    display: block;
+    /* margin-top: -20px; */
+  }
+  .login-box-center{
+    padding-top: 0px;
+  }
+  .terms-of-service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

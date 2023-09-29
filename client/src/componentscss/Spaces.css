@@ -1,0 +1,85 @@
+.home-left {
+  width: 12%;
+ /* background-color: chartreuse; */
+  height: 100%;
+  padding: 0px 2px;
+  margin-left: -5px;
+}
+
+.spaces-div{
+    /* border: 1px solid red; */
+    
+    /* background-color: red; */
+    /* padding:0px 5px; */
+    margin-right: 20px;
+    /* overflow-y: scroll; */
+}
+/* .spaces-div:hover{
+    background-color: #e3e3e3;
+} */
+
+.create-space,.cinema-talk{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    font-size: 13px;
+    font-weight: 400;
+    gap: 5px;
+    background-color: #ECEDED;
+    border-radius: 3px;
+    padding: 8px 5px;
+    margin-bottom: 5px;
+}
+.create-space:hover,.cinema-talk:hover{
+    background-color: #e3e3e3;
+}
+.spaces-links{
+    text-decoration: none;
+    color: #636466;
+}
+.spaces-links:hover{
+color: #636466;
+}
+.spaces-images{
+    border-radius: 50%;
+}
+.cinema-talk{
+    display: flex;
+    position: relative;
+}
+
+footer{
+    /* display: flex; */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:left;
+}
+
+footer div{
+   margin-right: 5px;
+   line-height: 18px;
+   margin-bottom: -5px;
+   margin-left: 5px;
+}
+footer h6{
+font-size: 13px;
+font-weight: 400;
+line-height: 18px;
+color: #939598;
+cursor: pointer;
+
+
+}
+footer h6:hover{
+    text-decoration: underline;
+}
+.notifyspaces{
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color:#B92B27;
+    border: 2px solid white;
+    left: 18px;
+    top: 4px;
+}

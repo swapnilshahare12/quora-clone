@@ -1,0 +1,50 @@
+.mobile-navbar{
+    background-color: #B92B27;
+    /* display: none; */
+    justify-content: space-between;
+    padding: 0 15px;
+    width: 100%;
+}
+.mobile-left{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+}
+.mobile-search-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-text-box h1{
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.mobile-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+}
+.mobile-right{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+}
+.mobile-add-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobile-add-text-box h1{
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 5px;
+}
